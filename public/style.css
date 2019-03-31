@@ -1,0 +1,27 @@
+.Bin {
+    justify-content: space-around;
+}
+.bin {
+  display: flex;
+  justify-content: space-around;
+}
+.item {
+  margin-right: 8px;
+}
+.bin-item {
+  border: 5px solid white;
+  background-color: #d6e9fe;
+  height: 370px;
+  flex: 1;
+}
+
+.bin-one,
+.bin-two,
+.bin-three {
+  background-color: rgb(239, 251, 255);
+  flex: initial;
+  width: 230px;
+}
+body {
+  background-image: url("background.jpg");
+}
