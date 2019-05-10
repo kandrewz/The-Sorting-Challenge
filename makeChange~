@@ -1,0 +1,3 @@
+#! /bin/bash
+
+npm run build && rm -r src/flask/static/static/* && rmdir src/flask/flaskr/static && mkdir src/flask/flaskr/static && cp -R build/* src/flask/flaskr/static && mv src/flask/flaskr/static/static/* src/flask/flaskr/static
